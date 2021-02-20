@@ -28,6 +28,14 @@ NOTE: Only works on Windows + Google Chrome + Python3
 
 5. Install VS Code from https://code.visualstudio.com/download
 
+6. Open up a terminal and 
+
+   ```bash
+   pip install selenium
+   ```
+
+   
+
 
 
 
@@ -75,7 +83,7 @@ Enter your Trading View Personal Link:
    alpha = alpha_<2/(SC+1)?2/(SC+1):(alpha_>1?1:alpha_)
    out = input(close)
    out := (1-alpha)*nz(out[1]) + alpha*price
-   plot(out,title="LJS FRAMA",transp=0)
+   plot(out,title="Robinhood",transp=0)
    
    strategy.risk.max_drawdown(value=100, type=strategy.percent_of_equity)
        

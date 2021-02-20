@@ -42,9 +42,13 @@ NOTE: Only works on Windows/Mac + Google Chrome + Python3
 
 5. Install VS Code from https://code.visualstudio.com/download
 
+6. Open up a terminal and 
 
+   ```bash
+   pip install selenium
+   ```
 
-
+   
 
 ### Setting up Trading View and Python code
 
